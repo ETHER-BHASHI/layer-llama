@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layer Llama | 2026 Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-brown: #8d6e63;
+            --accent-yellow: #fdd835;
+            --bg-cream: #faf9f6;
+            --insta-pink: #E1306C;
+        }
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background-color: var(--bg-cream);
+            margin: 0;
+            padding-bottom: 120px;
+            text-align: center;
+        }
+
+        /* Arched Header Style */
+        header {
+            background: white;
+            padding: 60px 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            border-bottom: 6px solid var(--accent-yellow);
+        }
+
+        .logo-main {
+            font-family: 'Shrikhand', cursive;
+            font-size: clamp(2.5rem, 10vw, 4.5rem);
+            color: var(--primary-brown);
+            text-shadow: 3px 3px 0px var(--accent-yellow);
+            line-height: 1;
+        }
+
+        .slogan {
+            display: block;
+            font-size: 0.9rem;
+            letter-spacing: 5px;
+            font-weight: 700;
+            color: var(--primary-brown);
+            margin-top: 15px;
+            text-transform: uppercase;
+        }
+
+        /* Product Grid */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 40px;
+            padding: 25px;
+            border: 2px solid #eee;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: var(--accent-yellow);
+        }
+
+        .img-box {
+            width: 100%;
+            height: 250px;
+            background: #fdfdfd;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .img-box img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .name {
+            font-family: 'Shrikhand', cursive;
+            color: var(--primary-brown);
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #2e7d32;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .buy-btn {
+            display: inline-block;
+            background: var(--insta-pink);
+            color: white;
+            padding: 12px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        /* Instagram Floating Button */
+        .insta-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: white;
+            color: var(--insta-pink);
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 800;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            border: 2px solid var(--insta-pink);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-main">💡 Layer Llama 💡</div>
+    <span class="slogan">Ideate • Innovate • Invent</span>
+</header>
+
+<div class="container">
+    <div class="card">
+        <div class="img-box"><img src="https://raw.githubusercontent.com/ETHER-BHASHI/layer-llama-assets/refs/heads/main/photo_2026-04-15_15-34-33.jpg" alt="Butterfly Knife"></div>
+        <h2 class="name">Butterfly Knife</h2>
+        <span class="price">₹799</span>
+        <a href="https://www.instagram.com/layerllama" class="buy-btn">DM TO ORDER</a>
+    </div>
+
+    <div class="card">
+        <div class="img-box"><img src="https://raw.githubusercontent.com/ETHER-BHASHI/layer-llama/refs/heads/main/Screenshot%202026-04-15%20153339.png" alt="Asimo Full"></div>
+        <h2 class="name">Asimo (Full + Bag)</h2>
+        <span class="price">₹1099</span>
+        <a href="https://www.instagram.com/layerllama" class="buy-btn">DM TO ORDER</a>
+    </div>
+
+    <div class="card">
+        <div class="img-box"><img src="Screenshot 2026-04-15 153258.png" alt="Asimo Only"></div>
+        <h2 class="name">Asimo Robot Only</h2>
+        <span class="price">₹559</span>
+        <a href="https://www.instagram.com/layerllama" class="buy-btn">DM TO ORDER</a>
+    </div>
+
+    <div class="card">
+        <div class="img-box"><img src="photo_2026-04-15_15-05-56.jpg" alt="Octopus"></div>
+        <h2 class="name">Flexii Octopus</h2>
+        <span class="price">₹599</span>
+        <a href="https://www.instagram.com/layerllama" class="buy-btn">DM TO ORDER</a>
+    </div>
+
+    <div class="card">
+        <div class="img-box"><img src="" alt="Karambit"></div>
+        <h2 class="name">Karambit Knife</h2>
+        <span class="price">₹549</span>
+        <a href="https://www.instagram.com/layerllama" class="buy-btn">DM TO ORDER</a>
+    </div>
+</div>
+
+<a href="https://www.instagram.com/layerllama" class="insta-float">CHAT ON INSTAGRAM</a>
+
+</body>
+</html>
